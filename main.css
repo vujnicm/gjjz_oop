@@ -1,0 +1,34 @@
+.Header{
+    background-color: #94B49F;
+}
+
+.Header>h1{
+    text-align: center;
+    color:black;
+}
+
+.KesKrediti{
+    background-image: url(img/historical.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+p, h1, h2, h3, ul{
+    color: white;
+}
+
+.KesKrediti>ul{
+    color:#B4CFB0;
+}
+
+.KesKrediti>h1{
+    color:#B4CFB0;
+}
+
+.KesKrediti>h3{
+    color:#B4CFB0;
+}
+
+body{
+    background-color: #789395;
+}
