@@ -2,13 +2,18 @@
 
 *{
     box-sizing: border-box;
-    margin: 0;
+    margin: 0px;
     padding: 0;
+}
+
+body{
+    margin: 0px 20px 20px 20px;
 }
 
 p, h1{
     font-family: 'Raleway', sans-serif;
 }
+
 
 header li,a{
     text-decoration: none;
@@ -26,6 +31,8 @@ header{
     align-content: center;
     padding: 10px 10%;
     padding-left: 15px;
+    position: fixed;
+    width: 100%;
 }
 
 nav li {
@@ -63,49 +70,53 @@ nav li a {
     font-size: 50px;
 }
 
-.content1 {
-    margin: 20px;
-    background-color: #818b94;
-    padding: 30px 30px 30px 70px;
-    display: flex;
-}
-
-.content1 p {
-    margin-left: 30px;
-    font-size: 1.4em;
-}
-
-.content1 h1, .content2 h1{
+.NasiProjekti h1{
     text-align: center;
-    margin-bottom: 10px;
+    font-family: 'Roboto';
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.content2{
-    margin: 20px;
-    background-color: #818b94;
+.Projekti{
     display: flex;
-    padding: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
-.content2 p{
-    font-size: 1.4em;
+.projektikolona{
+    padding-left: 0.5%;
+    padding-right: 0.5%; 
+    width: 19.2%;
 }
 
-.column{
-    flex:1;
-    margin-left: 10px;
-    margin-right: 10px;
+.projektikolonadesno{
+    padding-left: 0.5%;
+    width: 19.2%;
+}
+
+.projektikolonalevo{
+    padding-right: 0.5%;
+    width: 19.2%;
+}
+
+.ONama{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #7d8cb0;
+    padding: 20px 25em;
+
 }
 
 footer{
     display:flex;
     align-items: baseline;
-    background-color: #000;
+    background-color: #7d8cb0;
     padding: 20px 25em;
+    font-family: 'Roboto', sans-serif;
 }
  
 footer h1, footer h2, footer p{
-    color: white;
+    color: #003379;
 }
 
 .footercolumn{
