@@ -86,6 +86,8 @@ button:hover{
     background-repeat:no-repeat;
     padding: 15%;
     margin-bottom: 20px;
+    align-content: center;
+    text-align: center;
 }
 
 .banner h1, .banner h2 {

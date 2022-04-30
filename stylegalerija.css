@@ -1,0 +1,15 @@
+.galerijanaslov{
+    background: url(img/zigzag.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 15%;
+    margin-bottom: 20px;
+    align-content: center;
+    text-align: center;
+}
+
+.galerijanaslov h1{
+    color: white;
+    font-weight: bold;
+}

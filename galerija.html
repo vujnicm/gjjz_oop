@@ -5,6 +5,9 @@
         <meta charset="UTF8">
         <title>Home Page</title>
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="stylegalerija.css">
+        <script src="javasript/main.js"></script>
+
     </head>
     
     <body>
@@ -22,48 +25,15 @@
         </header>
         
         <!-- banner -->
-        <div class="banner">
-            <h2>8 godina</h2>
-            <h1>Gradimo sa Vama</h1>
+        <div class="galerijanaslov">
+            <h1>Naši projekti</h1>
         </div>
         
-        <!-- projekti -->
-        <div class="projects">
-            <div class="projectcolumn">
-                <img src="img/Cokolada.png" style="width:100%;">
-            </div>
-            
-            <div class="projectcolumn">
-                <img src="img/Continental.png" style="width:100%;">
-            </div>
-            
-            <div class="projectcolumn">
-                <img src="img/Tehnounion.png" style="width:100%;">
-            </div>
-            
-            <div class="projectcolumn">
-                <img src="img/ConProM.png" style="width:100%;">
-            </div>
-            
-            <div>
-                <img src="img/AvivPark.png" style="width:100%;">
-            </div>
-            
-        </div>
+        <!-- JavaScrip kao sta -->
         
-        <!-- Pasusi -->
-        
-        <div class="paragraphs">
-            <div class="paragraphscolumn">
-                <h1>Projektovanje</h1>
-                <p>Naš projektantski tim okuplja visokokvalifikovane licencirane inženjere  koji koristeći najnaprednije sertifikovane 3D softvere za <span>proračun, dimenzionisanje  i modeliranje</span> konstrukcija kreiraju detaljnu projektnu dokumentaciju. <br> Zahvaljujući njihovom znanju, inovativnosti  i <span>can-do</span> pristupu, Vaša ideja biće pretvorena u optimalno i kvalitetno projektno rešenje osmišljeno za jednostavnu i brzu izgradnju, iza kojeg stoje sertifikovani dizajneri.</p>
-            </div>
-            
-            <div class="paragraphscolumn">
-                <h1>Izgradnja</h1>
-                <p>Naš izvođački tim okuplja iskusne montere, atestirane zavarivače i licencirane odgovorne izvođače radova. Ključne reči na kojima baziramo svoj graditeljski kvalitet su <span>operativnost, timski rad, preciznost  i brza montaža.</span> U svoje objekte ugrađujemo isključivo materijale sertifikovane od strane domaćih i stranih akreditovanjih laboratorija.</p>
-            </div>
-        </div>
+        <script>
+            myTest();
+        </script>
         
         <!-- footer -->
         <footer>
@@ -99,7 +69,6 @@
             <p>Copyright 2022 ConPro | All Rights Reserved | Dan u mesecu: <span id="datetime"></span></p>
         </div>
         
-        <script src="javasript/main.js"></script>
         <script>
             var dt = new Date();
             document.getElementById("datetime").innerHTML = dt.getDate();
