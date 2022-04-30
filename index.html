@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang=sr>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF8">
         <title>Home Page</title>
         <link rel="stylesheet" href="main.css">
@@ -14,7 +15,8 @@
             <nav>
                 <ul class="navigacija">
                     <li><a href ="index.html">Home</a></li>
-                    <li><a href ="projekti.html">Galerija</a></li>
+                    <li><a href ="galerija.html">Galerija</a></li>
+                    <li><a class="contact" href="contact.html"><button>Kontakt</button></a></li>
                 </ul>
             </nav>
         </header>
@@ -25,33 +27,44 @@
             <h1>Gradimo sa Vama</h1>
         </div>
         
-        <!-- Nasi projekti -->
-        <div class="NasiProjekti">
-            <h1>Naši projekti</h1>
-            <div class="Projekti">
-                <div class = "projektikolonalevo"> <!-- 19.2% -->
-                    <img src="img/Cokolada.png">
-                </div>
-                <div class = "projektikolona">
-                    <img src="img/Continental.png">
-                </div>
-                <div class = "projektikolona">
-                    <img src="img/Tehnounion.png">
-                </div>
-                <div class = "projektikolona">
-                    <img src="img/AvivPark.png">
-                </div>
-                <div class = "projektikolonadesno">
-                    <img src="img/ConProM.png">
-                </div>
+        <!-- projekti -->
+        <div class="projects">
+            <div class="projectcolumn">
+                <img src="img/Cokolada.png" style="width:100%;">
+            </div>
+            
+            <div class="projectcolumn">
+                <img src="img/Continental.png" style="width:100%;">
+            </div>
+            
+            <div class="projectcolumn">
+                <img src="img/Tehnounion.png" style="width:100%;">
+            </div>
+            
+            <div class="projectcolumn">
+                <img src="img/ConProM.png" style="width:100%;">
+            </div>
+            
+            <div>
+                <img src="img/AvivPark.png" style="width:100%;">
+            </div>
+            
+        </div>
+        
+        <!-- Pasusi -->
+        
+        <div class="paragraphs">
+            <div class="paragraphscolumn">
+                <h1>Projektovanje</h1>
+                <p>Naš projektantski tim okuplja visokokvalifikovane licencirane inženjere  koji koristeći najnaprednije sertifikovane 3D softvere za <span>proračun, dimenzionisanje  i modeliranje</span> konstrukcija kreiraju detaljnu projektnu dokumentaciju. <br> Zahvaljujući njihovom znanju, inovativnosti  i <span>can-do</span> pristupu, Vaša ideja biće pretvorena u optimalno i kvalitetno projektno rešenje osmišljeno za jednostavnu i brzu izgradnju, iza kojeg stoje sertifikovani dizajneri.</p>
+            </div>
+            
+            <div class="paragraphscolumn">
+                <h1>Izgradnja</h1>
+                <p>Naš izvođački tim okuplja iskusne montere, atestirane zavarivače i licencirane odgovorne izvođače radova. Ključne reči na kojima baziramo svoj graditeljski kvalitet su <span>operativnost, timski rad, preciznost  i brza montaža.</span> U svoje objekte ugrađujemo isključivo materijale sertifikovane od strane domaćih i stranih akreditovanjih laboratorija.</p>
             </div>
         </div>
         
-        <!-- O nama -->
-        <div class="ONama">
-            <h1>Od Vizije Do Uspeha</h1>
-            <p>Conpro je kompanija specijalizovana za fabrikaciju i izgradnju čeličnih konstrukcija. Oslanjajući se na znanje, iskustvo i inovativnost svog visokospecijalizovanog stručnog tima, gradimo za Vas sve vrste privrednih objekata kao što su proizvodne hale, skladišta, sportski centri, komercijalno poslovni objekti i sl.<br>Uz permanentno usavršavanje na polju primenjenih tehnologija, materijala i softvera, naš fokus je na izgradnji konstruktivno trajnih, finansijski optimalnih i izvođački jednostavnih objekata visokog kvaliteta. O uspehu koji ostvarujemo najbolje svedoče zadovoljni klijenti i brojni završeni objekti iza nas.</p>
-        </div>        
         <!-- footer -->
         <footer>
             <div class="footercolumn">
@@ -81,6 +94,9 @@
                 <p>Ukoliko imate bilo kakvih pitanja ili predloga za koje mislite da bi trebalo da se vidimo, biće nam drago da Vas primimo i popričamo o svemu.</p>
             </div>
         </footer>
+        <div class="copyright">
+                <p>Copyright 2022 ConPro | All Rights Reserved</p>
+            </div>
         
     </body>
         
