@@ -1,22 +1,7 @@
-var x = 5;
+let btn = document.getElementById('test');
 
-function myTest() {
-  console.log("Testiram x = " + x);
-  console.log("Testiram x = ${x}");
-
-  console.log("Ucenik" + ucenik.ime + " " + ucenik.prezime);
-
-  ucenik.printInfo();
+btn.addEventListener('click', function onClick(event) {
+    document.body.style.backgroundColor = 'salmon';
+    document.body.style.color = 'white';
 }
-
-function foo() {
-  let x = 3;
-}
-
-var ucenik = {
-    ime: "petar",
-    prezime: "petrovic",
-    printInfo: function() {
-    document.write("ovo je metod ucenika");
-  }
-}
+);
